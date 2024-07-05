@@ -1,0 +1,88 @@
+/* sidebar.css */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+}
+
+.sidebar {
+    background-color: #F2F3F4;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 1000;
+}
+
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.sidebar-logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.sidebar-title {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #000;
+    height: 50px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-item:hover {
+    background-color: #e0e0e0;
+}
+
+.nav-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.nav-item.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.nav-item.active .nav-icon:not(.logout .nav-icon) {
+    filter: brightness(0) invert(1);
+}
+
+.sidebar-footer {
+    margin-top: auto;
+}
+
+.logout {
+    color: red;
+}
+
+.logout .nav-icon {
+    filter: none;
+    fill: red !important; 
+}
+
+.logout:hover .nav-text {
+    font-weight: bold;
+}
+
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+    background-color: #fff;
+    flex-grow: 1;
+    height: 100vh;
+    overflow-y: auto;
+}
