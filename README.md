@@ -1,6 +1,9 @@
-#TWT2231 – WEB TECHNIQUES AND APPLICATIONS Project
-##TRIMESTER 2, 2023/2024
+# Pharmacy Inventory Management System
 
-##Project Title: Pharmacy Inventory Management System
-##Lab Section: 2C
+## TWT2231 – WEB TECHNIQUES AND APPLICATIONS Project
+
+**Trimester:** 2, 2023/2024  
+**Lab Section:** 2C
+
+## Table of Contents
  
