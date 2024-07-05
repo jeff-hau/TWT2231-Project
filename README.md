@@ -5,5 +5,4 @@
 **Trimester:** 2, 2023/2024  
 **Lab Section:** 2C
 
-## Table of Contents
  
